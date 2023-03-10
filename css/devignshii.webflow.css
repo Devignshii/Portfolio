@@ -3084,8 +3084,17 @@ li:hover {
   }
 
   .container.second {
-    height: 100vh;
+    height: 100%;
     padding-top: 0vh;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-pack: end;
+    -webkit-justify-content: flex-end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
   }
 
   .container.mid {
@@ -3115,6 +3124,7 @@ li:hover {
     z-index: 89;
     width: 100vw;
     height: 100vh;
+    padding-top: 12vh;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -3127,6 +3137,7 @@ li:hover {
 
   .hero.footer {
     z-index: 160;
+    padding-top: 0vh;
   }
 
   .maintext {
@@ -3138,11 +3149,19 @@ li:hover {
     position: relative;
     z-index: 4;
     width: 100%;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 
   .metaholder {
     position: relative;
     z-index: 2;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     width: 100%;
     padding-top: 0vh;
     padding-bottom: 0vh;
@@ -3151,6 +3170,10 @@ li:hover {
     -webkit-flex-direction: row;
     -ms-flex-direction: row;
     flex-direction: row;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
     -webkit-flex-wrap: wrap;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
@@ -3161,12 +3184,14 @@ li:hover {
     -webkit-align-content: center;
     -ms-flex-line-pack: center;
     align-content: center;
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 auto;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
   }
 
   .flex {
     width: 100%;
-    margin-top: 0vh;
-    padding-bottom: 100px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
@@ -3191,15 +3216,16 @@ li:hover {
     display: flex;
     width: 100%;
     height: 100%;
-    margin-top: 0px;
+    padding-top: 25vh;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: stretch;
     -webkit-align-items: stretch;
     -ms-flex-align: stretch;
@@ -3233,7 +3259,6 @@ li:hover {
     z-index: 4;
     width: 100%;
     height: 100%;
-    margin-top: 0vh;
   }
 
   .points {
@@ -3296,6 +3321,10 @@ li:hover {
     overflow: hidden;
     min-height: auto;
     padding-top: 0vh;
+  }
+
+  .white-ani {
+    display: none;
   }
 
   .nav-menu {
@@ -3784,7 +3813,7 @@ li:hover {
     display: block;
     width: 0%;
     margin-right: auto;
-    margin-bottom: 20vh;
+    margin-bottom: 10vh;
     margin-left: 5vw;
   }
 
@@ -4242,6 +4271,8 @@ li:hover {
   }
 
   .accordion-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
     color: #f5f5f5;
   }
 
@@ -4259,6 +4290,7 @@ li:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    overflow: hidden;
     width: 100vw;
     padding-right: 5vw;
     padding-left: 5vw;
@@ -4361,6 +4393,15 @@ li:hover {
   .textholder {
     margin-right: 30px;
     margin-left: 30px;
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  .page {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -4419,15 +4460,17 @@ li:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
+    padding-top: 25vh;
     padding-bottom: 40px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -webkit-flex-direction: column;
     -ms-flex-direction: column;
     flex-direction: column;
-    -webkit-justify-content: space-around;
-    -ms-flex-pack: distribute;
-    justify-content: space-around;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -4498,7 +4541,7 @@ li:hover {
     display: -ms-flexbox;
     display: flex;
     margin-top: 0px;
-    margin-bottom: 10vh;
+    margin-bottom: 15vh;
     -webkit-box-pack: center;
     -webkit-justify-content: center;
     -ms-flex-pack: center;
@@ -4857,6 +4900,7 @@ li:hover {
   }
 
   .accordion-toggle-grid {
+    overflow: hidden;
     padding-right: 30px;
     padding-left: 30px;
     -webkit-box-orient: horizontal;
@@ -4963,6 +5007,13 @@ li:hover {
     -ms-flex: 0 auto;
     flex: 0 auto;
   }
+
+  .page {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
 }
 
 @media screen and (max-width: 479px) {
@@ -5028,11 +5079,12 @@ li:hover {
   }
 
   .upper {
+    padding-top: 25vh;
     padding-bottom: 0px;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-    -ms-flex-pack: center;
-    justify-content: center;
+    -webkit-box-pack: start;
+    -webkit-justify-content: flex-start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -5069,11 +5121,6 @@ li:hover {
 
   .nav-menu {
     z-index: 252;
-  }
-
-  .buttontab {
-    top: 70vh;
-    margin-bottom: 18vh;
   }
 
   .navbuttonholder {
@@ -5234,11 +5281,6 @@ li:hover {
     margin-right: 4px;
   }
 
-  .share {
-    top: 85vh;
-    margin-bottom: 20vh;
-  }
-
   .menu__nav-link {
     font-size: 14px;
   }
@@ -5352,12 +5394,27 @@ li:hover {
   }
 
   .accordion-toggle-grid {
+    overflow: hidden;
+    height: 29.25vh;
     padding-right: 15px;
     padding-left: 15px;
   }
 
+  .accordion-container {
+    max-height: none;
+    min-height: auto;
+  }
+
+  .black-text {
+    display: block;
+  }
+
   .blur-tr {
     height: 60vh;
+  }
+
+  .accordion-toggle {
+    overflow: hidden;
   }
 
   .content-subnav-sticky {
@@ -5383,6 +5440,13 @@ li:hover {
   .textholder {
     margin-right: 12px;
     margin-left: 12px;
+  }
+
+  .page {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
