@@ -2862,10 +2862,7 @@ li:hover {
   right: 0%;
   bottom: 0%;
   z-index: 100000;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
+  display: none;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
