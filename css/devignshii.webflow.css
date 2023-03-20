@@ -1151,6 +1151,7 @@ li:hover {
   display: block;
   width: 32px;
   height: 32px;
+  background-color: transparent;
 }
 
 .c-share_button {
@@ -1235,6 +1236,7 @@ li:hover {
   display: none;
   width: 32px;
   height: 32px;
+  color: #000;
 }
 
 .c-social_share_wrapper.cc-pill {
@@ -2862,7 +2864,10 @@ li:hover {
   right: 0%;
   bottom: 0%;
   z-index: 100000;
-  display: none;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
   overflow: hidden;
   width: 100vw;
   height: 100vh;
@@ -3751,7 +3756,6 @@ li:hover {
   .layout {
     display: block;
     overflow: hidden;
-    margin-top: -8vh;
     padding-top: 30px;
   }
 
@@ -4399,7 +4403,10 @@ li:hover {
   }
 
   .page {
-    display: none;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
   }
 }
 
@@ -4721,10 +4728,6 @@ li:hover {
 
   .scroll-wrapper {
     display: none;
-  }
-
-  .layout {
-    margin-top: -10vh;
   }
 
   .text-block-2 {
