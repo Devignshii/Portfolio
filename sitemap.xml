@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>
+            https://devignshi.site/
+        </loc>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://devignshi.site/"/>
+    </url>
+    <url>
+        <loc>
+            https://devignshi.site/contact.html
+        </loc>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://devignshi.site/contact.html"/>
+    </url>
+    <url>
+        <loc>
+            https://devignshi.site/faq.html
+        </loc>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://devignshii.webflow.io/faq"/>
+    </url>
+    <url>
+        <loc>
+            https://devignshi.site/process.html
+        </loc>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://devignshi.site/process.html"/>
+    </url>
+    <url>
+        <loc>
+            https://devignshi.site/projects.html
+        </loc>
+        <xhtml:link rel="alternate" hreflang="x-default" href="https://devignshi.site/projects.html"/>
+    </url>
+</urlset>
