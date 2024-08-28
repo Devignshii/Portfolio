@@ -3324,11 +3324,7 @@ li:hover {
     padding-right: 50px;
   }
 
-  .page {
-    display: flex;
-  }
-
-  .modal-wrapper {
+  .page, .modal-wrapper {
     display: none;
   }
 
@@ -3340,6 +3336,10 @@ li:hover {
 
   .modalopen {
     background-color: #000;
+  }
+
+  .full-page.is-horizontal-scroll-section {
+    color: var(--black);
   }
 
   .card_line {
@@ -3803,11 +3803,7 @@ li:hover {
     display: flex;
   }
 
-  .page {
-    display: flex;
-  }
-
-  .modal-wrapper {
+  .page, .modal-wrapper {
     display: none;
   }
 
@@ -4156,11 +4152,7 @@ li:hover {
     margin-right: 12px;
   }
 
-  .page {
-    display: flex;
-  }
-
-  .modal-wrapper {
+  .page, .modal-wrapper {
     display: none;
   }
 
@@ -4195,6 +4187,10 @@ li:hover {
 
   .button1.is-bright.is-secondary.is-large.pg:hover {
     border-radius: .75rem;
+  }
+
+  .intro-title {
+    font-size: 2em;
   }
 }
 
